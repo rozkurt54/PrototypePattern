@@ -1,4 +1,4 @@
-package org.example.ProtoTypeDesignPattern.color.abstracts;
+package org.example.color.abstracts;
 
 public abstract class Color {
 

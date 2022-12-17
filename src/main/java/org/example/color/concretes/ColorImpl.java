@@ -1,6 +1,6 @@
-package org.example.ProtoTypeDesignPattern.color.concretes;
+package org.example.color.concretes;
 
-import org.example.ProtoTypeDesignPattern.color.abstracts.Color;
+import org.example.color.abstracts.Color;
 
 public class ColorImpl extends Color implements Cloneable {
 

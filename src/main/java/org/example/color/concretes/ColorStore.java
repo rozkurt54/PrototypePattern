@@ -1,6 +1,6 @@
 package org.example.color.concretes;
 
-import org.example.ProtoTypeDesignPattern.color.abstracts.Color;
+import org.example.color.abstracts.Color;
 
 import java.util.HashMap;
 import java.util.Map;

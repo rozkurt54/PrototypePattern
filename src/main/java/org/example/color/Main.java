@@ -1,16 +1,16 @@
-package org.example.ProtoTypeDesignPattern.color;
+package org.example.color;
 
-import org.example.ProtoTypeDesignPattern.color.abstracts.Color;
-import org.example.ProtoTypeDesignPattern.color.concretes.ColorImpl;
-import org.example.ProtoTypeDesignPattern.color.concretes.ColorStore;
+import org.example.color.abstracts.Color;
+import org.example.color.concretes.ColorImpl;
+import org.example.color.concretes.ColorStore;
 
 public class Main {
 
   public static void main(String[] args) throws CloneNotSupportedException {
 
     ColorStore colorStore = new ColorStore();
-    ColorImpl primaryColor = new ColorImpl("PrimaryColor", "545465", "(255,255,255,0)", "24054554");
-    ColorImpl secondaryColor = new ColorImpl("SecondaryColor", "3212221", "(100,100,100,20)", "231221");
+    Color primaryColor = new ColorImpl("PrimaryColor", "545465", "(255,255,255,0)", "24054554");
+    Color secondaryColor = new ColorImpl("SecondaryColor", "3212221", "(100,100,100,20)", "231221");
 
     colorStore.addColorToStore(primaryColor);
     colorStore.addColorToStore(secondaryColor);
